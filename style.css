@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+ font-family: "Montserrat Underline", serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    
+}
+header{
+    background-color: gray;
+    width:100%;
+    padding: 10px 200px;
+    position: fixed;
+    z-index: 999;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    text-decoration:none;
+    color:gold ;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: gold;
+    font-size: medium;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: blue;
+}
+ 
+img{
+    width: 500px;
+    border-radius: 60px;
+    /* background-repeat: repeat-x; */
+    justify-content: space-evenly;
+    box-shadow: 0 5px 25px gold;
+       
+}
+
+section{
+  padding: 100px 60px ;
+  /* flex-direction: wrap; */
+}
+   
+.main{
+    border-right: 50px gray;
+    color: gold;
+} 
+.sid{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.address{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.main2{
+    border-radius: 15px;
+   background-color: gray;
+   width: 80%;
+   height: 500px;
+   overflow: auto;
+   text-align: center;
+   box-shadow: 0 5px 25px gold;
+}
+
+.main3{
+    border-radius: 15px;
+    background-color: grey;
+    width: 80%;
+    height: 500px;
+    overflow: auto;
+    text-align: center;
+    box-shadow: 0 5px 25px gold;
+}
+.main4{
+    border-radius: 15px;
+    align-self: flex-end;
+    background-color: gray;
+    width: 80%;
+    height: 600px;
+    overflow: auto;
+    box-shadow: 0 5px 25px gold;
+}
+
+.main5{
+    width: 80%;
+    height: 500px;
+    
+}
+
+.main6{
+    text-align: center;
+    box-shadow: 0 5px 25px gold;
+
+}
+.main6 i:hover{
+    color: blue;
+}
